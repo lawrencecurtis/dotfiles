@@ -1,6 +1,6 @@
 [user]
-	name = Ryan Bates
-	email = ryan@railscasts.com
+	name = Lawrence Curtis
+	email = lawrencecurtis@mac.com
 [alias]
 	co = checkout
 [color]
@@ -8,5 +8,5 @@
 	status = auto
 	branch = auto
 [core]
-	excludesfile = /Users/rbates/.gitignore
+	excludesfile = /Users/lawrencecurtis/.gitignore
 	editor = mate -w
