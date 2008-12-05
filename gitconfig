@@ -3,6 +3,8 @@
 	email = lawrencecurtis@mac.com
 [alias]
 	co = checkout
+	ci = commit
+	st = status
 [color]
 	diff = auto
 	status = auto
@@ -10,3 +12,5 @@
 [core]
 	excludesfile = /Users/lawrencecurtis/.gitignore
 	editor = mate -w
+[apply]
+	whitespace = nowarn
