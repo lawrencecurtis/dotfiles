@@ -48,6 +48,7 @@ task :install do
 
   `git config --global user.name "#{new_name}"`
   `git config --global user.email "#{new_email}"`
+  `git config --global core.excludesfile "$HOME/.gitignore"`
 
 end
 

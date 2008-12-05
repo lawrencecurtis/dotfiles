@@ -10,7 +10,7 @@
 	status = auto
 	branch = auto
 [core]
-	excludesfile = /Users/lawrencecurtis/.gitignore
+	excludesfile = /Users/lawrencec/.gitignore
 	editor = mate -w
 [apply]
 	whitespace = nowarn
