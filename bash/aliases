@@ -1,10 +1,7 @@
 . ~/.zsh/aliases
 
 # changing directory to code project
-function P { cd ~/Projects/$1; }
-alias c='script/console'
-alias s='script/server'
-alias g='script/generate'
+function c { cd ~/code/$1; }
 
 alias ls='ls -G'
 
