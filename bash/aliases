@@ -10,6 +10,8 @@ fi
 # misc
 alias reload='. ~/.bash_profile'
 
+alias grep='GREP_COLOR="1;37;41" LANG=C grep --color=auto'
+
 
 vimgem() {
   vim $GEMDIR/gems/`$(which ls) $GEMDIR/gems | grep -x $1.* | sort | tail -1`/
