@@ -3,7 +3,9 @@
 # changing directory to code project
 function c { cd ~/code/$1; }
 
-alias ls='ls -G'
+if [ -f /opt/local/bin/gls ]; then
+    alias ls='/opt/local/bin/gls --color=auto'
+fi
 
 # misc
 alias reload='. ~/.bash_profile'

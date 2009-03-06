@@ -6,3 +6,5 @@ source ~/.bash/config
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
+
+export CLICOLOR=1;
