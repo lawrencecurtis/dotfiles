@@ -4,8 +4,8 @@ alias ..='cd ..'
 # ls
 alias ls="ls -F"
 alias l="ls -lAh"
-alias ll="ls -l"
-alias la='ls -A'
+alias ll="ls -hl"
+alias la='ls -Ah'
 
 # git
 alias gl='git pull'
