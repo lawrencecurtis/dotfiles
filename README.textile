@@ -4,10 +4,11 @@ These are config files to set up a system the way I like it.
 
 h2. Installation
 
-  sudo port install coreutils
-  git clone git://github.com/lawrencec/dotfiles ~/.dotfiles
-  cd ~/.dotfiles
+  sudo port install coreutils &&
+  git clone git://github.com/lawrencec/dotfiles ~/.dotfiles &&
+  cd ~/.dotfiles &&
   rake install
+
   # script will prompt for name and email address, 
   # will default to your current settings
 
